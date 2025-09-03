@@ -54,3 +54,64 @@ A coordinator agent usually makes them work together and checks that the work is
 | [writer.yaml](writer.yaml)           | Story writing workflow supervisor       |            |       |      | ✓     |        |                                                                                | ✓          |
 | [finance.yaml](finance.yaml)         | Financial research and analysis         |            |       |      | ✓     |        | [duckduckgo](https://hub.docker.com/mcp/server/duckduckgo/overview) | ✓          |
 | [shared-todo.yaml](shared-todo.yaml) | Shared todo item manager                |            |       | ✓    |       |        |                                                                                | ✓          |
+| [content_marketing_team.yaml](content_marketing_team.yaml) | Content marketing campaign team | ✓          |       |      | ✓     | ✓      |                                                                                | ✓          |
+| [learning_tutor.yaml](learning_tutor.yaml)               | Adaptive learning and education tutor   | ✓          |       | ✓    | ✓     | ✓      |                                                                                |            |
+
+## **New Agent Examples**
+
+### Content Marketing Team (`content_marketing_team.yaml`)
+
+A comprehensive multi-agent system for creating complete content marketing campaigns. This team demonstrates advanced collaboration patterns with specialized roles:
+
+**Team Structure:**
+- **Root (Team Lead)**: Coordinates strategy and execution, manages workflow
+- **Content Strategist**: Develops data-driven content strategies and audience analysis
+- **Copywriter**: Creates compelling content across multiple formats and platforms
+- **SEO Specialist**: Optimizes content for search engines and performance tracking
+- **Social Media Manager**: Adapts content for social platforms and engagement strategies
+
+**Key Features:**
+- Multiple AI models (Anthropic Claude for creativity, OpenAI GPT-4 for analysis)
+- Shared memory database for campaign coordination
+- Systematic workflow from strategy to execution
+- Platform-specific content optimization
+- Performance tracking and analytics guidance
+
+**Use Cases:**
+- Complete marketing campaign development
+- Content strategy and planning
+- SEO optimization and keyword research
+- Social media content adaptation
+- Brand messaging and voice development
+
+### Learning Tutor (`learning_tutor.yaml`)
+
+An adaptive educational agent that provides personalized learning experiences using cognitive science principles and evidence-based teaching methods.
+
+**Core Capabilities:**
+- **Learning Style Assessment**: Identifies and adapts to individual learning preferences
+- **Personalized Curriculum**: Creates custom learning paths tailored to student needs
+- **Interactive Teaching**: Uses Socratic questioning and hands-on activities
+- **Progress Tracking**: Monitors advancement and adjusts strategies accordingly
+- **Meta-Learning**: Teaches students how to learn effectively
+
+**Teaching Framework:**
+- ASSESS → PLAN → TEACH → PRACTICE → EVALUATE → ADAPT
+- Multimodal learning support (visual, auditory, kinesthetic, reading/writing)
+- Scaffolded learning with appropriate difficulty progression
+- Growth mindset development and confidence building
+
+**Subject Coverage:**
+- STEM (Mathematics, Sciences, Computer Science, Engineering)
+- Languages (English, Literature, Writing, Foreign Languages)
+- Social Sciences (History, Psychology, Economics)
+- Creative Arts (Art, Music, Creative Writing)
+- Professional Skills (Business, Communication, Project Management)
+- Life Skills (Study habits, Time management, Critical thinking)
+
+**Use Cases:**
+- Personalized tutoring across academic subjects
+- Study skills and learning strategy development
+- Adult education and professional development
+- Homework assistance and concept reinforcement
+- Learning disability support and accommodation
